@@ -42,8 +42,8 @@ body{
 
 .container .grid .element{
     box-sizing: border-box;
-    height: 40px;
-    width: 40px;
+    /*height: 40px;
+    width: 40px;*/
     border: 1px solid #58A4B0;
 }
 
