@@ -19,6 +19,7 @@ function getElementAndPaint(){
     elements.forEach(element => element.addEventListener('mouseover',paintElement))
 }
 
+
 setDivsGrid();
 
 getElementAndPaint();
