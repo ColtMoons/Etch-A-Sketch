@@ -55,7 +55,7 @@ function setGridSquares(e){
     getElementAndPaint(squares);
 }
 
-function getGridSizeByUser(){
+function setGridSizeByUser(){
     const gridSize = document.querySelector('.size');
     let size;
     gridSize.addEventListener('click', setGridSquares);
@@ -70,5 +70,5 @@ setDivsGrid();
 getElementAndPaint();
 
 //user set the quantity of squares and paint when the mouse is over
-getGridSizeByUser();
+setGridSizeByUser();
 
