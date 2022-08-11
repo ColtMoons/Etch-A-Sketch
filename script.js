@@ -10,4 +10,15 @@ function setDivsGrid(){
     }
 }
 
+function paintElement(e){
+    this.style.cssText= 'border: none; background-color: black;'
+}
+
+function getElementAndPaint(){
+    const elements = document.querySelectorAll('.element');
+    elements.forEach(element => element.addEventListener('mouseover',paintElement))
+}
+
 setDivsGrid();
+
+getElementAndPaint();
