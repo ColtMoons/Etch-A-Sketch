@@ -63,8 +63,12 @@ function getGridSizeByUser(){
 
 
 //call methods to work
+//create divs for the grid
 setDivsGrid();
 
+//first time created grid will paint when the mouse is over and element
+getElementAndPaint();
+
+//user set the quantity of squares and paint when the mouse is over
 getGridSizeByUser();
 
-getElementAndPaint();
