@@ -30,9 +30,10 @@ body{
 }
 
 .container .grid{
+    box-sizing: border-box;
     border: 2px solid #58A4B0;
-    height: 640px;
-    width: 640px;
+    height: 644px;
+    width: 644px;
     flex-shrink: 0;
 
     display: flex;
